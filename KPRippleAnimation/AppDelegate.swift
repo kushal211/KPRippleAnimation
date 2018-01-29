@@ -2,10 +2,10 @@
 //  AppDelegate.swift
 //  KPRippleAnimation
 // 
-//  Created By: Kushal Panchal, IndiaNIC Infotech Ltd
-//  Created on: 25/01/18 10:33 AM - (indianic)
+//  Created By: Kushal Panchal, KP
+//  Created on: 25/01/18 10:33 AM
 //  
-//  Copyright © 2017 IndiaNIC Infotech Ltd. All rights reserved.
+//  Copyright © 2017 KP. All rights reserved.
 //  
 //  
 

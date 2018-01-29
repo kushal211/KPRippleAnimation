@@ -12,6 +12,7 @@
 		A97EBACA20199CB9009CD1E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97EBAC820199CB9009CD1E9 /* Main.storyboard */; };
 		A97EBACC20199CB9009CD1E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A97EBACB20199CB9009CD1E9 /* Assets.xcassets */; };
 		A97EBACF20199CB9009CD1E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A97EBACD20199CB9009CD1E9 /* LaunchScreen.storyboard */; };
+		A97EBAD720199CD0009CD1E9 /* KPRippleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97EBAD620199CD0009CD1E9 /* KPRippleLayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		A97EBACB20199CB9009CD1E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A97EBACE20199CB9009CD1E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A97EBAD020199CB9009CD1E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A97EBAD620199CD0009CD1E9 /* KPRippleLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KPRippleLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				A97EBAC420199CB9009CD1E9 /* AppDelegate.swift */,
 				A97EBAC620199CB9009CD1E9 /* ViewController.swift */,
+				A97EBAD620199CD0009CD1E9 /* KPRippleLayer.swift */,
 				A97EBAC820199CB9009CD1E9 /* Main.storyboard */,
 				A97EBACB20199CB9009CD1E9 /* Assets.xcassets */,
 				A97EBACD20199CB9009CD1E9 /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					A97EBAC020199CB9009CD1E9 = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A97EBAD720199CD0009CD1E9 /* KPRippleLayer.swift in Sources */,
 				A97EBAC720199CB9009CD1E9 /* ViewController.swift in Sources */,
 				A97EBAC520199CB9009CD1E9 /* AppDelegate.swift in Sources */,
 			);
@@ -211,7 +215,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +266,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -274,11 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KPRippleAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.KPRippleAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.KPRippleAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +295,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = KPRippleAnimation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.indianic.KPRippleAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sample.KPRippleAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
