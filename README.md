@@ -5,7 +5,7 @@ A fully customisable subclass of the `CAReplicatorLayer` which will used to disp
 
 You'll be able to create buttons like these by using only the interface builder:
 
-![preview](Media/RippleAnimationVideo.mov)
+![preview](Media/RippleAnimationVideo.gif)
 
 ## Requirements
 -	Swift 4
